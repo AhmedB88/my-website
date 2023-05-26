@@ -63,8 +63,6 @@ body{
     position: fixed;
 }
 
-
-
 @media  (max-width: 1400px){
     body{
         background-color: #0b0f12;
@@ -81,18 +79,19 @@ body{
         left: 0px;
     }
     .main-left-section-div{
+        display: block;
+        height: 400px;
         margin-left: 200px;
-        bottom: 300px;
-        position: absolute;
+        bottom: 0px;
+        position: fixed;
         padding-top: 10px;
-
     }
     
     .main-right-section-div{
         display: flex;
         height: 850px;
         width: fit-content;
-        position: relative;
+        position: absolute;
         margin-left: 200px;
       
         
