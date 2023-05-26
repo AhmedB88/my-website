@@ -62,3 +62,115 @@ body{
     bottom: 200px;
     position: fixed;
 }
+
+
+
+@media  (max-width: 1400px){
+    body{
+        background-color: #0b0f12;
+    }
+    
+    .main-section-div{
+        display: block;
+        justify-content: center;
+        position: absolute;
+        width: 1000px;
+        bottom: 0px;
+        top: 200px;
+        right: 0px;
+        left: 0px;
+    }
+    .main-left-section-div{
+        margin-left: 200px;
+        bottom: 300px;
+        position: absolute;
+        padding-top: 10px;
+
+    }
+    
+    .main-right-section-div{
+        display: flex;
+        height: 850px;
+        width: fit-content;
+        position: relative;
+        margin-left: 200px;
+      
+        
+    }
+    .bewerbung-div{
+        display: block;
+        height: fit-content;
+        width: fit-content;
+        left: 50px;
+        background-color: #0b0f12;
+        margin-left: 100px;
+        padding-top: 17px;
+    }
+    .hidden-form{
+        display: none;
+    }
+    .my-doc{
+        font: 700;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        border-radius: 20px;
+        
+    
+    }
+    .preview:hover  {
+        cursor: pointer;
+        border-radius: 20px;
+        box-shadow: 1px 2px 20px rgba(255, 255, 255, 1.5);
+        transform:scale(1.1);
+    }
+    .choosing-section-div{
+        display: block;
+        margin-left: 300px;
+        width: 400px;
+    }
+    .button-div{
+        display: block;
+        bottom: 200px;
+        position: fixed;
+        margin-left: 400px;
+
+    }
+    .me-img{
+        display: inline-block;
+        object-fit: cover;
+        height: 850px;
+        border-color: #0b0f12;
+        border-radius: 100px;
+        max-width: 600px;
+        box-shadow: 1px 2px 5px rgba(255, 255, 255, 0.5);
+    
+    }
+    .social-media-img{
+        display: block;
+        height: 15px;
+        border-radius: 0px;
+        margin-top: 20px;
+       
+    }
+    .preview{
+        height: 400px;
+        max-width: 290px;
+        display: block;
+        object-fit: cover;
+        border-color: #0b0f12;
+        border-radius: 20px;
+        transition: transform 330ms ease-in-out;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    a{  
+        
+        text-decoration: none;
+        color: white;
+        font: 500;
+        font-size: 14px;
+        font-family:  'Roboto', sans-serif;
+    }
+
+}
